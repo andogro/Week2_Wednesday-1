@@ -245,17 +245,17 @@ while(result === "heads") {
 for(i=1;i<101;i++){
 	if(i%3 === 0 && i%5 === 0) {
       console.log("FizzBuzz");
-    }
-  	else if(i%3 === 0){
-      console.log("Fizz");
-    }
-    else if (i%5 === 0){
-      console.log("Buzz");
-    }
-    else {
-      console.log(i);
-    }
-}
+  }
+	else if(i%3 === 0){
+    console.log("Fizz");
+  }
+  else if (i%5 === 0){
+    console.log("Buzz");
+  }
+  else {
+    console.log(i);
+  }
+};
 
 // CHESS BOARD
 // 24. Write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines.
